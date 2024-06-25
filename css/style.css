@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #182c52;
+    background-image: url('/images/fondoPaginaWeb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+    .col-2{
+        width: 100px;
+    }
+
+    .btn{
+        margin: 10px;
+    }
+
+.img-icon {
+
+    height: 50px;
+}
+
+.cuadro {
+    width: 100px;
+    height: 50px;
+    background-color:#0e3964;;
+    margin: 0 10px;
+}
+.circulo {
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.oval-background {
+    border-radius: 100%; /* Hace que el div tenga forma de óvalo */
+    background-color: #0e3964; /* Color de fondo del óvalo */
+    padding: 40px; /* Espacio alrededor de la imagen y el botón */
+    margin-bottom: 40px; /* Espacio entre las secciones */
+}
+
+.container-fluid {
+    padding-top: 20px; /* Espaciado superior */
+    padding-bottom: 20px; /* Espaciado inferior */
+}
+
+.bg-primary, .bg-secondary {
+    color: white; /* Color de texto para fondos azul y gris */
+}
+
+@media (min-width: 768px) {
+    .bg-primary, .bg-secondary {
+        padding: 15px; /* Espaciado interno */
+        margin-bottom: 15px; /* Espaciado inferior */
+    }
+}
+
+.left-section {
+    background-color: #0e3964;
+    padding: px;
+    border-radius: 40px;
+    height: 610px;
+    width: 600px;
+}
+
+.unpocodemi{
+    background-color: #0e3964;
+    color: #4cd7d0; 
+    text-align: center; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+    border: 1px solid #4cd7d0; 
+}
+
+.soy-oceana{
+    background-color: #4cd7d0; 
+    color: #0e3964;
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 40px;
+    margin-bottom: 10px; 
+    border-radius: 50px; 
+    border: 1px solid #4cd7d0; 
+}
+.left-section img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.left-section img:hover {
+    transform: scale(1.1);
+}
+
+.btn-agua-marina {
+    color: #FFFFFF;
+    background-color: #0e3964;
+    border-color: #7FFFD4;
+}
+
+.btn-agua-marina:hover {
+    color: #FFFFFF;
+    background-color: #104fee;
+    border-color: #3CB371;
+}
+
+.bg-laura, .bg-designer, .bg-porta{
+    background-color: #0e3964;
+    color: #ffffff; 
+    text-align: center; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+    border: 2px solid #4cd7d0; 
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.bg-product {
+    background-color: #0e3964;
+    color: #4cd7d0; 
+    text-align: center; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+    border: 2px solid #4cd7d0; 
+}
